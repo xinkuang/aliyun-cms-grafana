@@ -190,6 +190,7 @@ System.register(['lodash'], function (_export, _context) {
             var i = 0;
             var c,
                 c1,
+                c3,
                 c2 = 0;
             while (i < decode_text.length) {
               c = decode_text.charCodeAt(i);

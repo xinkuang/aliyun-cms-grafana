@@ -132,7 +132,7 @@ export class Util {
   decode(decode_text){
     var string = "";
 		var i = 0;
-		var c, c1, c2 = 0;
+		var c, c1, c3,c2 = 0;
 		while ( i < decode_text.length ) {
 			c = decode_text.charCodeAt(i);
 			if (c < 128) {
